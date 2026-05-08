@@ -1,1 +1,23 @@
-.
+function getSongsMP3()
+    return {
+        {
+            id = "https://raw.githubusercontent.com/Roman666Cabj/Nether/main/Music/Rockstar(MP3_320K).mp3",
+            name = "Rockstar",
+            imageId = "rbxassetid://73712386011529"
+        },
+
+        {
+            id = "https://raw.githubusercontent.com/Roman666Cabj/Nether/main/Music/Basado%20en%20Hechos%20Reales(MP3_320K).mp3",
+            name = "Basado en Hechos Reales",
+            imageId = "rbxassetid://81389895583857"
+        },
+
+        {
+            id = "https://raw.githubusercontent.com/Roman666Cabj/Nether/main/TRAP.N.EXPORT%20(feat.%20Duki_%20Ysy%20A%20_%20Neo%20Pistea)(MP3_320K).mp3",
+            name = "TRAP.N.EXPORT (feat. Duki, Ysy A, Neo Pistea)",
+            imageId = "rbxassetid://71578889633378"
+        }
+    }
+end
+
+return getSongsMP3
